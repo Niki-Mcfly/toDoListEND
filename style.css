@@ -1,0 +1,50 @@
+.container {
+  background-color: aqua;
+  width: 460px;
+  margin: auto;
+  padding: 30px;
+}
+
+.header {
+  height: 30px;
+  width: 400px;
+  background-color: beige;
+  padding: 30px;
+}
+
+#date {
+}
+
+.content {
+  height: 300px;
+  width: 400px;
+  background-color: brown;
+  padding: 30px;
+}
+
+.add {
+  height: 50;
+  width: 400px;
+  background-color: cornflowerblue;
+  padding: 30px;
+}
+
+.trash {
+  height: 20px;
+}
+
+.to_item {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.to_item span {
+  flex: 1;
+}
+
+.to_item img {
+}
+
+li {
+  padding: 5px;
+}
