@@ -1,32 +1,84 @@
 .container {
-  background-color: aqua;
   width: 460px;
+
+  border-radius: 25px;
   margin: auto;
-  padding: 30px;
+  padding-top: 200px;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  height: max-content;
+  height: 100%;
+}
+
+#bg {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5b61892225bf02d0d476ba79/1546166684642-DKNYKTG3KNFEMWO48BKN/FB-BANNER-Event-Martin4.jpg?format=1500w");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
 .header {
-  height: 30px;
+  height: 50px;
   width: 400px;
-  background-color: beige;
   padding: 30px;
+  opacity: 0.8;
+  border-radius: 10px;
+  font-family: "Titillium Web", sans-serif;
+  background-image: url("jackson-so-_t-l5FFH8VA-unsplash.jpg");
+  background-size: cover;
+  border-width: 5px;
+  border-style: groove;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 #date {
+  margin-top: 60px;
+  font-weight: bold;
+  margin-right: 100px;
 }
 
 .content {
   height: 300px;
   width: 400px;
-  background-color: brown;
+  background-color: rgb(255, 228, 196);
   padding: 30px;
+  opacity: 0.8;
+  border-radius: 10px;
+
+  border-style: groove;
+  border-width: 5px;
 }
 
 .add {
   height: 50;
   width: 400px;
-  background-color: cornflowerblue;
+  background-color: rgb(46, 139, 87);
   padding: 30px;
+  opacity: 0.9;
+  border-radius: 10px;
+  font-family: "Titillium Web", sans-serif;
+  border-style: groove;
+
+  border-width: 5px;
+}
+#addButton {
+  background-color: black;
+
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 2px;
+  font-family: "Titillium Web", sans-serif;
 }
 
 .trash {
@@ -47,4 +99,5 @@
 
 li {
   padding: 5px;
+  cursor: pointer;
 }
